@@ -1,0 +1,33 @@
+/* Photo by fauxels: https://www.pexels.com/photo/man-and-woman-holding-hands-3228726/ */
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(./images/pexels-fauxels-3228726.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  align-content: center;
+}
+
+.container {
+  padding: 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.invitaion-info {
+  text-align: center;
+}
+
+p {
+  font-size: 1em;
+}
